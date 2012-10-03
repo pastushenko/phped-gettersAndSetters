@@ -334,7 +334,6 @@ class CreateGettersAndSetters
         }
 
         $content = file_get_contents($file);
-
         $className          = $this->fetchClassName($content);
         $properties         = $this->fetchClassProperties($content);
         $functions          = $this->fetchClassFunctions($content);
@@ -451,7 +450,7 @@ class CreateGettersAndSetters
             throw new \UnexpectedValueException('Cannot find a class in the file!');
         }
 
-        $className = trim($class[2]);
+        return trim($class[2]);
     }
 
     /**
