@@ -12,7 +12,7 @@ This script is meant for the NuSphere PhpED editor. The lack of functionality fo
 5. Click on Sub Menu and call it 'Getters / Setters' and double click on the just created menu item
 6. Fill in the next items
     * Execute with: Shell
-    * Command Line: "path to php.exe" -f "path to php file" "@FName@" --getters=1 --setters=1
+    * Command Line: "path to php.exe" "path to php file" --getters=1 --setters=1 "@FName@"
     * Check the following items:
         * 'Show this command in Workspace popup' and the subitem 'for files'
         * 'Show this command in explorer popup' and the subitem 'for files'
