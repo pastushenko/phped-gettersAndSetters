@@ -21,8 +21,8 @@ This script is meant for the NuSphere PhpED editor. The lack of functionality fo
     
     **Note**: Do not check refresh editor. This will break the insert!
 7. Repeat steps 5 and 6 for multiple options. for example:
-    - Getters Only : "path to php.exe" -f "path to php file" --getters=1 --setters=0 "@FName@"
-    - Setters Only : "path to php.exe" -f "path to php file" --getters=0 --setters=1 "@FName@"
+    - Getters Only : "path to php.exe" "path to php file" --getters=1 --setters=0 "@FName@"
+    - Setters Only : "path to php.exe" "path to php file" --getters=0 --setters=1 "@FName@"
 
 
 ## Command line usage
