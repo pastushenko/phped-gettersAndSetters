@@ -396,7 +396,6 @@ class CreateGettersAndSetters
 
 		if ($this->getCreateDocblock()) {
 			$injection .= "{$tab}/**\n".
-						  "{$tab} *\n".
 						  "{$tab} * @param mixed {$variable}\n".
 						  "{$tab} *\n".
 						  "{$tab} * @return {$className} \n".
